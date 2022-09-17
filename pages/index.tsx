@@ -28,9 +28,11 @@ export default function Index() {
                         you{"'"}ll feel a bit better about yourself.
                     </p>
                 </div>
-                <button className={styles.getStartedButton}>
-                    Get Started
-                </button>
+                <a href="/api/auth/login">
+                    <button className={styles.getStartedButton}>
+                        Get Started
+                    </button>
+                </a>
             </main>
 
             <footer className={styles.footer}>
